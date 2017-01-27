@@ -1,0 +1,96 @@
+object Test3: TFGUIForm
+  Left = 78
+  Top = 300
+  BorderIcons = [biSystemMenu]
+  Caption = 'Test3'
+  ClientHeight = 460
+  ClientWidth = 754
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -10
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  FormStyle = fsMDIChild
+  OldCreateOrder = True
+  Position = poDesigned
+  Visible = True
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnResize = FormResize
+  FrameType = 5
+  Resizable = False
+  Undecorated = False
+  Background = clBtnFace
+  PixelsPerInch = 96
+  TextHeight = 13
+  object textField1: TATextField
+    Tag = -2
+    Left = 96
+    Top = 32
+    Width = 289
+    Height = 25
+    Cursor = crIBeam
+    Hint = 'textField1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = []
+    Foreground = 3355443
+    Background = clWhite
+    Editable = True
+  end
+  object button1: TAButton
+    Tag = -4
+    Left = 400
+    Top = 24
+    Width = 81
+    Height = 33
+    Hint = 'button1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = []
+    Foreground = clBlack
+    Background = 15658734
+    Text = 'button1'
+    actionPerformed = 'button1_ActionPerformed'
+  end
+  object jTable1: TJTable
+    Tag = 19
+    Left = 96
+    Top = 88
+    Width = 385
+    Height = 313
+    Hint = 'jTable1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = []
+    Foreground = 3355443
+    Background = clWhite
+    RowHeight = 16
+    ShowHorizontalLines = True
+    ShowVerticalLines = True
+    ShowGrid = True
+    Columns.Strings = (
+      'Title 1'
+      'Title 2'
+      'Title 3'
+      'Title 4'
+      'Title 5')
+    ColCount = 5
+    RowCount = 5
+    FillsViewportHeight = False
+    AutoCreateRowSorter = False
+    RowSelectionAllowed = True
+    ColumnSelectionAllowed = False
+    CellSelectionEnabled = False
+    DragEnabled = False
+    HorizontalScrollBarPolicy = AS_NEEDED
+    VerticalScrollBarPolicy = AS_NEEDED
+  end
+end
